@@ -1,0 +1,26 @@
+{
+    "create new testify test suite": {
+        "prefix": "tts",
+        "body": [
+            "type $1TestSuite struct {",
+            "\tsuite.Suite",
+            "}",
+            "",
+            "func Test$1TestSuite(t *testing.T) {",
+            "\tsuite.Run(t, new($1TestSuite))",
+            "}",
+            "",
+            "func (t *$1TestSuite) SetupTest() {",
+            "\tpanic(\"TODO\")",
+            "}"
+        ]
+    },
+    "create new testify test case": {
+        "prefix": "ttc",
+        "body": [
+            "func (t *$1TestSuite) Test$2() {",
+            "\tpanic(\"TODO\")",
+            "}"
+        ]
+    }
+}

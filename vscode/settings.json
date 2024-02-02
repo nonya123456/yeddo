@@ -31,7 +31,7 @@
             "after": [
                 "<Esc>"
             ]
-        },
+        }
     ],
     "vim.normalModeKeyBindings": [
         {
@@ -54,4 +54,5 @@
         }
     ],
     "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.suggest.snippetsPreventQuickSuggestions": true
 }
