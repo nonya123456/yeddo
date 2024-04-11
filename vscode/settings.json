@@ -1,16 +1,10 @@
 {
     "diffEditor.ignoreTrimWhitespace": false,
-    "[python]": {
-        "editor.formatOnType": true
-    },
     "editor.formatOnSave": true,
-    "editor.fontSize": 13,
+    "editor.fontFamily": "Iosevka Comfy Fixed",
+    "editor.fontSize": 14,
     "editor.codeActionsOnSave": {},
-    "go.toolsManagement.autoUpdate": true,
-    "godot_tools.gdscript_lsp_server_port": 6005,
-    "godot_tools.editor_path": "/Applications/Godot.app",
-    "explorer.confirmPasteNative": false,
-    "explorer.confirmDelete": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
     "vim.vimrc.enable": false,
     "vim.leader": ",",
     "vim.insertModeKeyBindingsNonRecursive": [
@@ -18,15 +12,6 @@
             "before": [
                 "j",
                 "k"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        },
-        {
-            "before": [
-                "k",
-                "j"
             ],
             "after": [
                 "<Esc>"
@@ -53,6 +38,6 @@
             ]
         }
     ],
-    "workbench.colorTheme": "One Dark Pro Darker",
-    "editor.suggest.snippetsPreventQuickSuggestions": true
+    "vim.timeout": 200,
+    "workbench.colorTheme": "Default Dark+"
 }
